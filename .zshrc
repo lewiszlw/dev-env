@@ -95,6 +95,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Git
 alias gs="git status"
 alias ga="git add"
 alias gc="git commit"
@@ -114,6 +115,10 @@ alias gra="git rebase --abort"
 alias gst="git stash"
 alias gstl="git stash list"
 alias gstp="git stash pop"
+
+# Application
+alias chrome="open -a \"/Applications/Google Chrome.app\""
+
 
 #source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
