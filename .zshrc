@@ -164,3 +164,6 @@ export PATH="/usr/local/opt/sqlite/bin:$PATH"
 
 # z 自动跳转目录
 source ~/Software/z/z.sh
+
+# https://github.com/Qix-/better-exceptions
+export BETTER_EXCEPTIONS=1
