@@ -134,6 +134,8 @@ export PATH=$PATH:/usr/local/go/bin
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+alias jumper="ssh zhanglinwei02@jumper.sankuai.com"
+
 # man中文文档
 alias cman="man -M /usr/local/share/man/zh_CN"
 
@@ -167,3 +169,8 @@ source ~/Software/z/z.sh
 
 # https://github.com/Qix-/better-exceptions
 export BETTER_EXCEPTIONS=1
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home"
+
+# 关闭homebrew自动更新
+export HOMEBREW_NO_AUTO_UPDATE=true
